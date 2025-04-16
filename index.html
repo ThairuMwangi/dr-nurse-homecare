@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <title>Dr. Nurse Homecare Ltd - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .bg-base { background-color: #283993; }
+    .bg-accent { background-color: #EB008B; }
+    .hover\:bg-accent:hover { background-color: #EB008B; }
+    .hover\:bg-base:hover { background-color: #283993; }
+  </style>
+</head>
+<body class="font-sans text-gray-800">
+  <!-- Header -->
+  <header class="bg-base shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-4">
+        <img src="images/logo.png" alt="Dr. Nurse Homecare Logo" class="h-12 w-auto">
+        <div class="text-2xl font-bold text-white">Dr. Nurse Homecare Ltd</div>
+      </div>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="index.html" class="text-white hover:text-gray-200">Home</a></li>
+          <li><a href="about.html" class="text-white hover:text-gray-200">About</a></li>
+          <li><a href="services.html" class="text-white hover:text-gray-200">Services</a></li>
+          <li><a href="contact.html" class="text-white hover:text-gray-200">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-cover bg-center py-20" style="background-image: url('images/hero-nurse.jpg');">
+    <div class="container mx-auto px-4 text-center text-white bg-black bg-opacity-50 py-10 rounded">
+      <h1 class="text-4xl font-bold mb-4">Trusted Homecare with you at Heart</h1>
+      <p class="text-xl mb-8">Quality nursing care brought right to your doorstep.</p>
+      <div>
+        <a href="tel:0790252026" class="bg-accent text-white px-6 py-3 rounded mr-4 hover:bg-opacity-90">Call Us</a>
+        <a href="contact.html" class="bg-base text-white px-6 py-3 rounded hover:bg-opacity-90">Book a Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Preview Section -->
+  <section id="about-preview" class="py-16">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <h2 class="text-3xl font-bold mb-4">A Legacy of Homecare Services</h2>
+        <p>At Dr. Nurse Homecare Ltd, we bring compassionate and professional nursing services right to your home. Learn more about our commitment and care on our About page.</p>
+        <a href="about.html" class="inline-block mt-4 text-base font-semibold text-base hover:text-accent">Read More &rarr;</a>
+      </div>
+      <div class="md:w-1/2">
+        <img src="images/about-preview.jpg" alt="Homecare Image" class="w-full rounded shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Preview Section -->
+  <section id="services-preview" class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Service Card 1 -->
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <img src="images/elderly-care.jpg" alt="Elderly Homecare" class="mb-4 rounded">
+          <h3 class="text-xl font-bold mb-2">Elderly Homecare</h3>
+          <p>Compassionate assistance with daily activities and health monitoring.</p>
+        </div>
+        <!-- Service Card 2 -->
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <img src="images/post-surgery.jpg" alt="Post-Surgery Nursing" class="mb-4 rounded">
+          <h3 class="text-xl font-bold mb-2">Post-Surgery Nursing</h3>
+          <p>Expert care to speed up recovery and ensure proper healing.</p>
+        </div>
+        <!-- Service Card 3 -->
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <img src="images/medication.jpg" alt="Medication Management" class="mb-4 rounded">
+          <h3 class="text-xl font-bold mb-2">Medication Management</h3>
+          <p>We help manage prescriptions and schedules so you never miss a dose.</p>
+        </div>
+        <!-- Service Card 4 -->
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <img src="images/equipment.jpg" alt="Medical Equipment" class="mb-4 rounded">
+          <h3 class="text-xl font-bold mb-2">Medical Equipment</h3>
+          <p>We rent and supply hospital beds, ventilators, monitors and other patient care equipment.</p>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="services.html" class="text-base font-semibold text-base hover:text-accent">Explore All Services &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Preview Section -->
+  <section id="contact-preview" class="bg-blue-100 py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-8">Talk to Our Care Team</h2>
+      <p class="mb-8">Your comfort, health, and dignity are our top priorities. Get in touch with us today!</p>
+      <a href="contact.html" class="bg-accent text-white px-6 py-3 rounded hover:bg-opacity-90">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-base text-gray-200 py-6">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0">
+        <p class="mb-1">Email: <a href="mailto:dr.nursehomecareltd@gmail.com" class="hover:text-white">dr.nursehomecareltd@gmail.com</a></p>
+        <p>Phone: <a href="tel:0790252026" class="hover:text-white">0790 252 026</a></p>
+      </div>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="about.html" class="hover:text-white">About</a></li>
+          <li><a href="services.html" class="hover:text-white">Services</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="text-center mt-4">
+      <p>© 2025 Dr. Nurse Homecare Ltd - All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
